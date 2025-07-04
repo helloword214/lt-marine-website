@@ -5,14 +5,14 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import Hero from "../components/Hero";
-import MissionSection from "../components/MissionSection";
+import MissionSection from "../components/WhatWeOfferSection";
 import WhyChooseUs from "../components/WhyChooseUs";
 import CTASection from "../components/CTASection";
 import Footer from "../components/Footer";
-import Guarantee from "@/components/GuaranteesSection";
 import HiringCrew from "@/components/HiringCrewSection";
 import HiringSection from "@/components/HiringSection";
-import SuccessStories from "@/components/SuccessStoriesSection";
+import ServicesSection from "@/components/ServicesSection";
+import VisionMissionSection from "@/components/VissionMissionSection";
 
 export default function Home() {
   useEffect(() => {
@@ -22,13 +22,15 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <ServicesSection />
+
       <MissionSection />
       <WhyChooseUs />
-      <Guarantee />
       <HiringCrew />
       <HiringSection />
-      <SuccessStories />
+      <VisionMissionSection />
       <CTASection />
+
       <Footer />
     </>
   );

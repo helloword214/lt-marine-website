@@ -31,20 +31,13 @@ export default function WhyChooseUs() {
   }, []);
 
   return (
-    <section
-      className="relative px-6 text-white pb-[11rem]"
-      style={{
-        backgroundImage:
-          "linear-gradient(to bottom right, #f63d5e, #fc434e, #ff4d3c, #ff5927, #ff6600)",
-        clipPath: "polygon(0 10%, 100% 0, 100% 85%, 0 100%)",
-      }}
-    >
+    <section className="relative px-6 text-gray-900 pb-28 bg-gray-50">
       {/* Header */}
-      <div className="max-w-4xl px-6 pt-32 pb-24 mx-auto text-center">
+      <div className="max-w-4xl px-6 pt-24 pb-20 mx-auto text-center">
         <h2 className="text-3xl font-extrabold md:text-4xl">
           Why Sail With Us?
         </h2>
-        <p className="max-w-2xl mx-auto mt-4 text-lg text-orange-100">
+        <p className="max-w-2xl mx-auto mt-4 text-lg text-gray-600">
           At LT Marine, we don’t just crew ships — we crew futures.
         </p>
       </div>
@@ -100,8 +93,8 @@ function FlipCard({
       onClick={() => setFlipped(!flipped)}
     >
       <div
-        className={`relative w-full h-96 transform-style transition-transform duration-700 ease-in-out ${
-          flipped ? "rotateY-180" : ""
+        className={`relative w-full h-96 transform-style preserve-3d transition-transform duration-700 ease-in-out ${
+          flipped ? "rotate-y-180" : ""
         }`}
       >
         {/* Front */}
@@ -119,10 +112,8 @@ function FlipCard({
 
         {/* Back */}
         <div
-          className="absolute inset-0 flex items-center justify-center p-6 text-center text-white transform rounded-lg shadow-xl rotateY-180 backface-hidden"
-          style={{
-            backgroundColor: color,
-          }}
+          className="absolute inset-0 flex items-center justify-center p-6 text-center text-white transform rounded-lg shadow-xl rotate-y-180 backface-hidden"
+          style={{ backgroundColor: color }}
         >
           <p className="font-medium leading-relaxed text-md">
             {getRefinedText(title)}
