@@ -4,12 +4,12 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import Hero from "../components/Hero";
-import MissionSection from "../components/WhatWeOfferSection";
+import HeroSection from "../components/HeroSection";
+import WhatWeOfferSection from "../components/WhatWeOfferSection";
 import WhySailWithUsSection from "../components/WhySailWithUsSection";
 import CTASection from "../components/CTASection";
-import Footer from "../components/Footer";
-import HiringCrew from "@/components/HiringCrewSection";
+import FooterSection from "../components/FooterSection";
+import HiringCrewSection from "@/components/HiringCrewSection";
 import SeafarerSection from "@/components/SeafarerJobCards";
 import ServicesSection from "@/components/ServicesSection";
 import VisionMissionSection from "@/components/VissionMissionSection";
@@ -21,15 +21,15 @@ export default function Home() {
 
   return (
     <>
-      <Hero />
+      <HeroSection />
       <ServicesSection />
-      <MissionSection />
+      <WhatWeOfferSection />
       <WhySailWithUsSection />
-      <HiringCrew />
+      <HiringCrewSection />
       <SeafarerSection />
       <VisionMissionSection />
       <CTASection />
-      <Footer />
+      <FooterSection />
     </>
   );
 }

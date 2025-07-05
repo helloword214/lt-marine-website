@@ -17,9 +17,9 @@ export default function CTASection() {
           Ready to Navigate With Us?
         </h2>
         <p className="mb-8 text-lg text-gray-700">
-          Whether you're a shipping company looking for reliable crew or a
-          seafarer ready to set sail, we're here to support you every step of
-          the voyage.
+          {`Whether you're a shipping company looking for reliable crew or a
+            seafarer ready to set sail, we're here to support you every step of
+            the voyage.`}
         </p>
 
         <Link

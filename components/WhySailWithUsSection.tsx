@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { FlipCard } from "./FlipCard"; // Make sure this path matches where your FlipCard is
+import { FlipCard } from "./FlipCard"; // This is the function of the cards fliiping
 
 const cards = [
   {
