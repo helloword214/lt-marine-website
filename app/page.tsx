@@ -6,11 +6,11 @@ import "aos/dist/aos.css";
 
 import Hero from "../components/Hero";
 import MissionSection from "../components/WhatWeOfferSection";
-import WhyChooseUs from "../components/WhyChooseUs";
+import WhySailWithUsSection from "../components/WhySailWithUsSection";
 import CTASection from "../components/CTASection";
 import Footer from "../components/Footer";
 import HiringCrew from "@/components/HiringCrewSection";
-import HiringSection from "@/components/HiringSection";
+import SeafarerSection from "@/components/SeafarerJobCards";
 import ServicesSection from "@/components/ServicesSection";
 import VisionMissionSection from "@/components/VissionMissionSection";
 
@@ -23,14 +23,12 @@ export default function Home() {
     <>
       <Hero />
       <ServicesSection />
-
       <MissionSection />
-      <WhyChooseUs />
+      <WhySailWithUsSection />
       <HiringCrew />
-      <HiringSection />
+      <SeafarerSection />
       <VisionMissionSection />
       <CTASection />
-
       <Footer />
     </>
   );
