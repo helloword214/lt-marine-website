@@ -20,6 +20,7 @@ export default function Hero() {
 
   return (
     <section
+      id="hero"
       className="relative w-full h-[100vh] overflow-hidden"
       style={{
         clipPath: "polygon(0 0, 100% 0, 100% 85%, 0% 100%)",

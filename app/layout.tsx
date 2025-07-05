@@ -1,5 +1,5 @@
 "use client"; // TEMPORARY while no backend is used
-import "./globals.css"; // ✅ import Tailwind styles here
+import "./globals.css";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import Navbar from "@/components/Navbar";
@@ -16,7 +16,7 @@ export default function RootLayout({
   }, []);
 
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body>
         <Navbar />
         {children}

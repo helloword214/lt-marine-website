@@ -21,25 +21,43 @@ export default function WhatWeOfferSection() {
     >
       {/* Header */}
       <motion.div
+        className="max-w-4xl px-6 pt-32 pb-20 mx-auto text-center"
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        viewport={{ once: true, amount: 0.4 }}
-        className="max-w-4xl pt-32 pb-20 mx-auto text-center"
+        viewport={{ once: true, amount: 0.5 }}
       >
-        <div className="flex flex-col items-center gap-2">
-          <div className="flex items-center gap-2 text-sm font-semibold tracking-wide text-orange-200 uppercase">
-            <FaTools className="text-lg" />
-            <span>What We Offer</span>
-          </div>
-          <h2 className="text-3xl font-bold md:text-4xl">
-            Unmatched Maritime Solutions
-          </h2>
-        </div>
-        <p className="max-w-2xl mx-auto mt-4 text-lg text-orange-100">
+        <motion.div
+          className="flex items-center justify-center gap-2 text-sm font-semibold tracking-wide text-orange-200 uppercase"
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.05, duration: 0.6 }}
+          viewport={{ once: true }}
+        >
+          <FaTools className="text-lg" />
+          <span>What We Offer</span>
+        </motion.div>
+
+        <motion.h2
+          className="text-3xl font-bold md:text-4xl"
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.1, duration: 0.6 }}
+          viewport={{ once: true }}
+        >
+          Unmatched Maritime Solutions
+        </motion.h2>
+
+        <motion.p
+          className="max-w-2xl mx-auto mt-4 text-lg text-orange-100"
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3, duration: 0.6 }}
+          viewport={{ once: true }}
+        >
           We deliver a full suite of maritime solutions — tailored to elevate
           your fleet’s performance, safety, and people-first values.
-        </p>
+        </motion.p>
       </motion.div>
 
       {/* Cards */}

@@ -9,16 +9,24 @@ export default function ServicesPage() {
       <section className="max-w-6xl mx-auto mb-16 text-center">
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
+          viewport={{ once: true, amount: 0.6 }}
           className="text-4xl md:text-5xl font-bold text-[#FF6600]"
         >
           Our Services
         </motion.h1>
-        <p className="max-w-2xl mx-auto mt-4 text-gray-600">
+
+        <motion.p
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.2, duration: 0.6 }}
+          viewport={{ once: true, amount: 0.6 }}
+          className="max-w-2xl mx-auto mt-4 text-gray-600"
+        >
           From recruitment to compliance — our maritime solutions are built on
           experience, ethics, and efficiency.
-        </p>
+        </motion.p>
       </section>
 
       <div className="grid max-w-6xl grid-cols-1 gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-3">
