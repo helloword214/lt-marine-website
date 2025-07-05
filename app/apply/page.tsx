@@ -42,7 +42,7 @@ export default function ApplyPage() {
             Online Application Progress
           </h2>
           <p className="text-gray-600">
-            Here's how you'll move through the hiring pipeline.
+            {"Here's how you'll move through the hiring pipeline."}
           </p>
         </div>
 
