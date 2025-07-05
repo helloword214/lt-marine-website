@@ -7,7 +7,7 @@ import { jobs } from "@/lib/mocks/jobs";
 export default function SeafarerJobCards() {
   return (
     <section className="px-6 py-20 text-gray-800 bg-grey-50">
-      <div className="mx-auto text-center  mx-w- max-w-7xl">
+      <div className="mx-auto text-center mx-w- max-w-7xl">
         {/* Heading */}
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
@@ -16,7 +16,7 @@ export default function SeafarerJobCards() {
           viewport={{ once: true }}
           className="mb-4 text-3xl font-bold md:text-4xl"
         >
-          ⚓ We’re Hiring Across Fleets
+          ⚓ Were Hiring Across Fleets
         </motion.h2>
 
         {/* Subheading */}

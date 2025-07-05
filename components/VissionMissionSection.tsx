@@ -46,9 +46,9 @@ export default function VissionMissionSection() {
             Our Mission
           </h2>
           <p className="text-sm leading-relaxed text-gray-700">
-            Our mission is to connect the world’s fleets with the heart and
-            skill of Filipino seafarers by delivering ethical, people-first
-            crewing solutions. <br />
+            Our mission is to connect the worlds fleets with the heart and skill
+            of Filipino seafarers by delivering ethical, people-first crewing
+            solutions. <br />
             <br />
             We are committed to the highest standards of integrity, safety, and
             service — empowering seafarers, supporting their families, and
