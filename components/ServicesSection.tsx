@@ -10,7 +10,6 @@ import {
   BookOpen,
   Wallet,
   HeartHandshake,
-  BarChart3,
   Plane,
 } from "lucide-react";
 
@@ -55,12 +54,7 @@ const services = [
     description: "Competitive support packages for crew and their dependents.",
     icon: HeartHandshake,
   },
-  {
-    title: "Performance Monitoring",
-    description:
-      "Reliable systems for onboard assessments and progress tracking.",
-    icon: BarChart3,
-  },
+
   {
     title: "Visa & Travel Management",
     description:
