@@ -1,10 +1,13 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { motion } from "framer-motion";
 
-export default function HiringCrewSection() {
+export default function HiringCrewSection({
+  onOpenContact,
+}: {
+  onOpenContact: () => void;
+}) {
   return (
     <motion.section
       className="relative px-6 py-24 overflow-hidden text-white"
@@ -61,12 +64,12 @@ export default function HiringCrewSection() {
           transition={{ delay: 0.55, duration: 0.5 }}
           viewport={{ once: true }}
         >
-          <Link
-            href="/contact"
+          <button
+            onClick={onOpenContact}
             className="bg-white text-[#FF6600] hover:bg-orange-100 font-semibold px-8 py-3 rounded-full transition shadow-md"
           >
             Contact Crewing Support →
-          </Link>
+          </button>
         </motion.div>
       </div>
     </motion.section>

@@ -1,9 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Link from "next/link";
 
-export default function CTASection() {
+export default function CTASection({
+  onOpenContact,
+}: {
+  onOpenContact: () => void;
+}) {
   return (
     <section className="px-6 py-20 text-center bg-gray-50">
       <motion.div
@@ -39,12 +42,12 @@ export default function CTASection() {
           transition={{ delay: 0.4, duration: 0.5 }}
           viewport={{ once: true, amount: 0.3 }}
         >
-          <Link
-            href="/contact"
+          <button
+            onClick={onOpenContact}
             className="inline-block bg-[#FF6600] hover:bg-orange-600 text-white font-semibold px-8 py-3 rounded-full transition-all duration-300 shadow-md hover:scale-105"
           >
             Get in Touch →
-          </Link>
+          </button>
         </motion.div>
       </motion.div>
     </section>

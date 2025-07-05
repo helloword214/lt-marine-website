@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -13,8 +13,11 @@ import HiringCrewSection from "@/components/HiringCrewSection";
 import WeAreHiringAccrossFleetSection from "@/components/WeAreHiringAcrossFleetSection";
 import ServicesSection from "@/components/ServicesSection";
 import VisionMissionSection from "@/components/VissionMissionSection";
+import ContactModal from "@/components/ContactModal";
 
 export default function Home() {
+  const [openContact, setOpenContact] = useState(false);
+
   useEffect(() => {
     AOS.init({ once: true, duration: 700 });
 
@@ -34,11 +37,12 @@ export default function Home() {
       <ServicesSection />
       <WhatWeOfferSection />
       <WhySailWithUsSection />
-      <HiringCrewSection />
+      <HiringCrewSection onOpenContact={() => setOpenContact(true)} />
       <WeAreHiringAccrossFleetSection />
       <VisionMissionSection />
-      <CTASection />
+      <CTASection onOpenContact={() => setOpenContact(true)} />
       <FooterSection />
+      <ContactModal open={openContact} onOpenChange={setOpenContact} />
     </>
   );
 }

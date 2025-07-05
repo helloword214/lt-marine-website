@@ -26,7 +26,7 @@ export default function Hero() {
         clipPath: "polygon(0 0, 100% 0, 100% 85%, 0% 100%)",
       }}
     >
-      {/* Background with blur + gradient */}
+      {/* Background */}
       <div ref={bgRef} className="absolute inset-0 z-0 will-change-transform">
         <Image
           src="/hero-image.jpg"
@@ -72,7 +72,7 @@ export default function Hero() {
           transition={{ delay: 0.7, duration: 0.5 }}
         >
           <Link
-            href="/contact"
+            href="/apply"
             className="animate-pulse bg-white text-[#FF6600] hover:bg-orange-100 font-semibold px-6 py-3 rounded-full transition"
           >
             Join Our Crew
