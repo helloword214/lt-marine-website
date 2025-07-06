@@ -24,6 +24,7 @@ export default function Hero() {
       className="relative w-full h-[100vh] overflow-hidden"
       style={{
         clipPath: "polygon(0 0, 100% 0, 100% 85%, 0% 100%)",
+        WebkitClipPath: "polygon(0 0, 100% 0, 100% 85%, 0% 100%)",
       }}
     >
       {/* Background */}
@@ -46,12 +47,12 @@ export default function Hero() {
       </div>
 
       {/* Foreground Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 text-center text-white">
+      <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 pt-24 pb-16 text-center text-white sm:pt-32 sm:pb-20">
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-4xl font-extrabold md:text-6xl drop-shadow-lg"
+          className="text-3xl font-extrabold leading-tight sm:text-4xl md:text-6xl drop-shadow-lg"
         >
           Empowering Seafarers
         </motion.h1>
@@ -60,7 +61,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.8 }}
-          className="max-w-2xl mt-4 mb-6 text-lg md:text-2xl drop-shadow-md"
+          className="max-w-lg mt-4 mb-6 text-base sm:max-w-xl sm:text-lg md:text-2xl drop-shadow-md"
         >
           We bridge skilled Filipino crew with global fleets — ethically,
           safely, and with pride.
@@ -73,7 +74,7 @@ export default function Hero() {
         >
           <Link
             href="/apply"
-            className="animate-pulse bg-white text-[#FF6600] hover:bg-orange-100 font-semibold px-6 py-3 rounded-full transition"
+            className="animate-pulse bg-white text-[#FF6600] hover:bg-orange-100 font-semibold px-6 py-3 rounded-full transition text-sm sm:text-base"
           >
             Join Our Crew
           </Link>
@@ -82,7 +83,7 @@ export default function Hero() {
 
       {/* Scroll-down Indicator */}
       <div className="absolute z-10 transform -translate-x-1/2 bottom-6 left-1/2">
-        <div className="w-5 h-5 rotate-45 border-b-2 border-r-2 border-white animate-bounce" />
+        <div className="w-4 h-4 rotate-45 border-b-2 border-r-2 border-white sm:w-5 sm:h-5 animate-bounce" />
       </div>
     </section>
   );
