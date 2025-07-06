@@ -1,11 +1,15 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { solutions, Solution } from "@/lib/mocks/solution";
 import { FaTools } from "react-icons/fa";
+import ContactModal from "@/components/ContactModal";
 
 export default function WhatWeOfferSection() {
+  const [modalOpen, setModalOpen] = useState(false);
+
   return (
     <motion.section
       className="relative px-6 pb-[11rem] text-white"
@@ -19,6 +23,8 @@ export default function WhatWeOfferSection() {
         clipPath: "polygon(0 10%, 100% 0, 100% 85%, 0 100%)",
       }}
     >
+      <ContactModal open={modalOpen} onOpenChange={setModalOpen} />
+
       {/* Header */}
       <motion.div
         className="max-w-4xl px-6 pt-32 pb-20 mx-auto text-center"
@@ -83,12 +89,21 @@ export default function WhatWeOfferSection() {
                   <p className="mb-4 leading-relaxed text-orange-100">
                     {sol.description}
                   </p>
-                  <a
-                    href={sol.link}
-                    className="inline-block font-medium text-white hover:underline"
-                  >
-                    {sol.linkLabel} →
-                  </a>
+                  {sol.type === "modal" ? (
+                    <button
+                      onClick={() => setModalOpen(true)}
+                      className="inline-block font-medium text-white hover:underline"
+                    >
+                      {sol.linkLabel} →
+                    </button>
+                  ) : (
+                    <a
+                      href={sol.link}
+                      className="inline-block font-medium text-white hover:underline"
+                    >
+                      {sol.linkLabel} →
+                    </a>
+                  )}
                 </CardContent>
               </Card>
             </motion.div>

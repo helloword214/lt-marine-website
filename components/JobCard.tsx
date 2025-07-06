@@ -7,10 +7,9 @@ type JobCardProps = {
   title: string;
   vessels: string[];
   icon: string;
-  href: string;
 };
 
-export default function JobCard({ title, vessels, icon, href }: JobCardProps) {
+export default function JobCard({ title, vessels, icon }: JobCardProps) {
   return (
     <div className="flex flex-col w-full h-full p-6 text-center transition bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-lg">
       <div className="items-center justify-center mx-auto mb-4 w-14 h-14 ">
@@ -29,7 +28,7 @@ export default function JobCard({ title, vessels, icon, href }: JobCardProps) {
         ))}
       </div>
       <Link
-        href={href}
+        href="/apply"
         className="inline-block text-[#FF6600] font-semibold text-sm hover:underline mt-auto"
       >
         See Details →

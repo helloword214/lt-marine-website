@@ -3,7 +3,7 @@ import {
   FaHardHat,
   FaShip,
   FaTools,
-  FaUserNurse,
+  FaUser,
   FaClipboardList,
 } from "react-icons/fa";
 
@@ -21,7 +21,7 @@ export const iconMap: Record<string, React.ReactNode> = {
   engineer: <FaTools size={48} className="text-orange-500" />,
   anchor: <FaAnchor size={48} className="text-blue-500" />,
   captain: <FaHardHat size={48} className="text-yellow-500" />,
-  medic: <FaUserNurse size={48} className="text-green-500" />,
+  medic: <FaUser size={48} className="text-green-500" />,
   checklist: <FaClipboardList size={48} className="text-purple-500" />,
   ship: <FaShip size={48} className="text-indigo-500" />,
 };
@@ -46,7 +46,7 @@ export const jobs = [
     href: "/jobs/chief-officer",
   },
   {
-    title: "Ship Medic",
+    title: "Ordinary Seaman",
     vessels: ["Passenger", "General Cargo"],
     icon: "medic",
     href: "/jobs/medic",
