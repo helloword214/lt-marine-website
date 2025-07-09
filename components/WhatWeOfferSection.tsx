@@ -51,7 +51,7 @@ export default function WhatWeOfferSection() {
           transition={{ delay: 0.1, duration: 0.6 }}
           viewport={{ once: true }}
         >
-          Unmatched Maritime Solutions
+          Maritime Manning & Fleet Services You Can Trust
         </motion.h2>
 
         <motion.p
@@ -61,8 +61,8 @@ export default function WhatWeOfferSection() {
           transition={{ delay: 0.3, duration: 0.6 }}
           viewport={{ once: true }}
         >
-          We deliver a full suite of maritime solutions — tailored to elevate
-          your fleet’s performance, safety, and people-first values.
+          We provide comprehensive maritime recruitment, training, vessel management,
+          and crew welfare programs — built to support global fleets and empower Filipino seafarers with safety, compliance, and care.
         </motion.p>
       </motion.div>
 
