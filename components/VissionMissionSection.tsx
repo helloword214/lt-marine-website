@@ -15,7 +15,7 @@ export default function VissionMissionSection() {
             viewport={{ once: true, amount: 0.4 }}
             className="text-4xl font-bold mb-4 text-[#FF6600]"
           >
-            A New Direction Under New Leadership
+           A New Direction in Maritime Crewing — Led by Seafarers, Built for Shipowners
           </motion.h1>
 
           <motion.p
@@ -25,11 +25,10 @@ export default function VissionMissionSection() {
             viewport={{ once: true, amount: 0.4 }}
             className="text-lg leading-relaxed text-gray-700"
           >
-            LT Marine is transitioning from a digital-only platform to a
-            full-service, face-to-face crewing agency. We believe in human
-            connection, hands-on accountability, and decisions guided by real
-            maritime experience. Our leadership has lived life at sea — and now
-            they lead with purpose, empathy, and integrity.
+            LT Marine is evolving from a digital-first company into a full-service,
+            face-to-face manning agency based in the Philippines.
+            Our leadership team brings decades of real maritime experience,
+            grounded in life at sea — guiding ethical recruitment, hands-on accountability, and people-first crewing for global shipping companies.
           </motion.p>
         </section>
       </section>
@@ -46,14 +45,11 @@ export default function VissionMissionSection() {
             Our Mission
           </h2>
           <p className="text-sm leading-relaxed text-gray-700">
-            Our mission is to connect the worlds fleets with the heart and skill
-            of Filipino seafarers by delivering ethical, people-first crewing
-            solutions. <br />
+            Our mission is to connect the world’s fleets with the heart and skill of
+            Filipino seafarers by delivering ethical, people-first crewing solutions. <br />
             <br />
-            We are committed to the highest standards of integrity, safety, and
-            service — empowering seafarers, supporting their families, and
-            building long-term partnerships based on trust, respect, and shared
-            success.
+           At LT Marine, we deliver crew management solutions built on safety, compliance, and trust.
+           We empower seafarers, support families, and foster lasting partnerships with shipowners and international shipping companies.
           </p>
         </motion.div>
 
@@ -69,9 +65,8 @@ export default function VissionMissionSection() {
             are celebrated not just for their excellence, but for the values
             they bring to every voyage. <br />
             <br />
-            We envision a world where crewing goes beyond service — becoming a
-            commitment to human dignity, professional growth, and a more
-            inclusive and sustainable global maritime industry.
+            LT Marine aims to redefine crewing in the maritime industry — with a commitment to human dignity,
+            professional development, and sustainable, inclusive manning practices that serve both crew and shipowners.
           </p>
         </motion.div>
       </section>

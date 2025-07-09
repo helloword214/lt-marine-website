@@ -14,53 +14,53 @@ const services = [
   {
     title: "Targeted Crew Recruitment",
     description:
-      "Rigorous screening and evaluation to ensure the right fit for every vessel.",
+      "End-to-end crew recruitment with strict vetting of certified Filipino seafarers.We match skillsets to vessel types with safety, compliance, and performance in mind.",
     icon: Users,
   },
   {
     title: "Full-Service Ship Management",
     description:
-      "Oversight of crew, compliance, maintenance, safety, and technical operations.",
+      "Technical and operational support for shipowners — including crew oversight, maintenance, and safety compliance for smooth global operations.",
     icon: Wrench,
   },
   {
     title: "Career Development Programs",
-    description: "Tiered growth tracks tailored for maritime professionals.",
+    description: "Structured maritime career paths for seafarers — offering growth, upskilling, and long-term planning for officer and rating advancement.",
     icon: GraduationCap,
   },
   {
     title: "Cadetship & Training Schemes",
     description:
-      "Customized development pathways for aspiring officers and engineers.",
+      "Training pipelines for aspiring maritime officers and engineers. Built to align with STCW standards and modern fleet requirements.",
     icon: BookOpen,
   },
   {
     title: "Payroll & Financial Reporting",
     description:
-      "Timely, transparent management of onboard compensation and finance.",
+      "Transparent, compliant payroll management for onboard personnel. Includes remittance, tax handling, and cost reporting for shipowners.",
     icon: Wallet,
   },
   {
     title: "Protection & Indemnity Claims",
     description:
-      "End-to-end P&I claims handling with precision and efficiency.",
+      "P&I claims handling from incident reporting to settlement — ensuring fast, compliant resolution with international legal standards.",
     icon: ShieldCheck,
   },
   {
     title: "Seafarer Welfare & Benefits",
-    description: "Competitive support packages for crew and their dependents.",
+    description: "Support services for crew and dependents — covering health, insurance, repatriation, and wellness programs aligned with MLC 2006.",
     icon: HeartHandshake,
   },
   {
     title: "Visa & Travel Management",
     description:
-      "Hassle-free handling of international travel documents and crew logistics.",
+      "Global visa, documentation, and travel coordination for smooth deployment. Focused on speed, accuracy, and hassle-free logistics.",
     icon: Plane,
   },
   {
     title: "Maritime Compliance & Audit Support",
     description:
-      "Assistance with inspections, certifications, and adherence to international maritime standards.",
+      "Advisory and documentation for flag state inspections, certifications, and audits — ensuring vessels and crew remain fully compliant.",
     icon: FileText,
   },
 ];

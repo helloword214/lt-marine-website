@@ -54,18 +54,19 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="text-3xl font-extrabold leading-tight sm:text-4xl md:text-6xl drop-shadow-lg"
         >
-          Empowering Filipino Seafarers. Supporting Global Shipping
+          Empowering Filipino Seafarers
         </motion.h1>
 
         <motion.p
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4, duration: 0.8 }}
-          className="max-w-lg mt-4 mb-6 text-base sm:max-w-xl sm:text-lg md:text-2xl drop-shadow-md"
-        >
-         We connect skilled, certified Filipino crew with international fleets — delivering ethical, 
-         compliant, and dependable manning services for shipowners worldwide
-        </motion.p>
+  initial={{ opacity: 0, y: 10 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.4, duration: 0.8 }}
+  className="mx-auto max-w-2xl mt-4 mb-6 text-lg sm:text-xl md:text-2xl text-center drop-shadow-md"
+>
+  We connect skilled, certified Filipino crew with international fleets — delivering ethical,
+  compliant, and dependable manning services for shipowners worldwide.
+</motion.p>
+
 
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}

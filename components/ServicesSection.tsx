@@ -25,8 +25,8 @@ export default function ServicesPage() {
           viewport={{ once: true, amount: 0.6 }}
           className="max-w-2xl mx-auto mt-4 text-sm text-gray-600 sm:text-base"
         >
-          From recruitment to compliance — our maritime solutions are built on
-          experience, ethics, and efficiency.
+          From crew recruitment to maritime compliance — we deliver trusted,
+           efficient, and ethical manning solutions tailored for global shipping companies.
         </motion.p>
       </section>
 

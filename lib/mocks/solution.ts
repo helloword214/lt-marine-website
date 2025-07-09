@@ -20,7 +20,7 @@ export const solutions: Solution[] = [
     icon: FaUserCheck,
     title: "Maritime Recruitment",
     description:
-      "Rigorous crew selection ensuring skilled, safety-first Filipino seafarers for your fleet.",
+      "Certified Filipino crew recruitment tailored for global shipping companies. Our selection process ensures skill, compliance, and vessel compatibility.",
     type: "link",
     link: "/apply",
     linkLabel: "Learn More",
@@ -29,7 +29,7 @@ export const solutions: Solution[] = [
     icon: FaTools,
     title: "Vessel Management",
     description:
-      "Comprehensive technical and operational management to keep your vessels sailing smoothly.",
+      "Full-service ship management covering crew, technical operations, safety systems, and regulatory compliance — keeping your fleet efficient and seaworthy.",
     type: "modal", // 👈 This one opens the contact modal
     linkLabel: "Talk To Us",
   },
@@ -37,7 +37,7 @@ export const solutions: Solution[] = [
     icon: FaChalkboardTeacher,
     title: "Maritime Training",
     description:
-      "Tailored programs from certifications to advanced skill development for your crew.",
+      "STCW-compliant training programs, certifications, and upskilling for Filipino officers and ratings — built for international maritime standards.",
     type: "link",
     link: "/apply",
     linkLabel: "View Programs",
@@ -46,7 +46,7 @@ export const solutions: Solution[] = [
     icon: FaHandshake,
     title: "Welfare & Benefits",
     description:
-      "Support packages and programs dedicated to seafarer welfare and family care.",
+      "Seafarer-centered benefits, repatriation assistance, health support, and family welfare services in line with MLC 2006 requirements.",
     type: "link",
     link: "/apply",
     linkLabel: "Discover Benefits",
